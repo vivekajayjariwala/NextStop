@@ -39,7 +39,7 @@ app.use('/api/lists', reviewsRoute);
 // Serving frontend code
 app.use('/', express.static('client'));
 // Import environment variables
-const MONGOURL = "mongodb+srv://vivekajayjariwala:LFGBlFaPukzISvHL@se3316cluster.v3rk4.mongodb.net/travel_data?retryWrites=true&w=majority&appName=se3316cluster"; 
+const MONGOURL = config.MONGURL; 
 const port = 3000;
 
 // Establish connection to MongoDB database using mongoose 
