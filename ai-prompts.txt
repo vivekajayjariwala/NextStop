@@ -1,0 +1,1 @@
+# Record all AI tools and prompts that you used to create substantial amounts of code.
